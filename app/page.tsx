@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AmpLink } from "@/components/AmpLink";
 import { FaqList } from "@/components/FaqList";
 import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
@@ -33,6 +34,7 @@ export default function HomePage() {
   const homeFaqs = faqsById(HOME_FAQ_IDS);
   return (
     <>
+      <AmpLink path={PAGES.home.path} />
       <JsonLd data={[offerLd, faqLd(homeFaqs)]} />
       <Hero />
       <section className="section">

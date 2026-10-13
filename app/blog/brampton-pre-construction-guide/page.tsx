@@ -1,3 +1,4 @@
+import { AmpLink } from "@/components/AmpLink";
 import { Blocks } from "@/components/Blocks";
 import { JsonLd } from "@/components/JsonLd";
 import { LotWidthDiagram } from "@/components/LotWidthDiagram";
@@ -10,6 +11,7 @@ export const metadata = pageMeta(PAGES.blog);
 export default function BlogPage() {
   return (
     <>
+      <AmpLink path={PAGES.blog.path} />
       <JsonLd
         data={[
           webPageLd({

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AmpLink } from "@/components/AmpLink";
 import { Blocks } from "@/components/Blocks";
 import { SpecDisclaimer } from "@/components/Disclaimer";
 import { JsonLd } from "@/components/JsonLd";
@@ -20,6 +21,7 @@ export const metadata = pageMeta(PAGES.pricing);
 export default function PricingPage() {
   return (
     <>
+      <AmpLink path={PAGES.pricing.path} />
       <JsonLd
         data={[
           webPageLd({

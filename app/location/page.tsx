@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AmpLink } from "@/components/AmpLink";
 import { Blocks } from "@/components/Blocks";
 import { DriveTimesTable } from "@/components/DriveTimesTable";
 import { JsonLd } from "@/components/JsonLd";
@@ -16,6 +17,7 @@ export const metadata = pageMeta(PAGES.location);
 export default function LocationPage() {
   return (
     <>
+      <AmpLink path={PAGES.location.path} />
       <JsonLd
         data={[
           webPageLd({

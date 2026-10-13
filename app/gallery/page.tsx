@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AmpLink } from "@/components/AmpLink";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { PhotoFigure } from "@/components/PhotoFigure";
@@ -13,6 +14,7 @@ const GALLERY = [AERIAL, ...AREA_PHOTOS, ...LIFESTYLE_PHOTOS];
 export default function GalleryPage() {
   return (
     <>
+      <AmpLink path={PAGES.gallery.path} />
       <JsonLd
         data={[
           webPageLd({

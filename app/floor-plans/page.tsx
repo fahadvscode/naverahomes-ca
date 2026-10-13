@@ -1,3 +1,4 @@
+import { AmpLink } from "@/components/AmpLink";
 import { Blocks } from "@/components/Blocks";
 import { FloorPlanView } from "@/components/FloorPlanView";
 import { JsonLd } from "@/components/JsonLd";
@@ -12,6 +13,7 @@ export const metadata = pageMeta(PAGES.floorPlans);
 export default function FloorPlansPage() {
   return (
     <>
+      <AmpLink path={PAGES.floorPlans.path} />
       <FloorPlanView />
       <JsonLd
         data={[

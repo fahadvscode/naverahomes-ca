@@ -1,3 +1,4 @@
+import { AmpLink } from "@/components/AmpLink";
 import { JsonLd } from "@/components/JsonLd";
 import { LeadForm } from "@/components/LeadForm";
 import { PageHeader } from "@/components/PageHeader";
@@ -9,6 +10,7 @@ export const metadata = pageMeta(PAGES.register);
 export default function RegisterPage() {
   return (
     <>
+      <AmpLink path={PAGES.register.path} />
       <JsonLd
         data={[
           webPageLd({

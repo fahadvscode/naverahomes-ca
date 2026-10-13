@@ -1,3 +1,4 @@
+import { AmpLink } from "@/components/AmpLink";
 import { Blocks } from "@/components/Blocks";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
@@ -9,6 +10,7 @@ export const metadata = pageMeta(PAGES.privacy);
 export default function PrivacyPage() {
   return (
     <>
+      <AmpLink path={PAGES.privacy.path} />
       <JsonLd
         data={[
           webPageLd({

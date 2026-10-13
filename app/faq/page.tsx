@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AmpLink } from "@/components/AmpLink";
 import { FaqList } from "@/components/FaqList";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
@@ -10,6 +11,7 @@ export const metadata = pageMeta(PAGES.faq);
 export default function FaqPage() {
   return (
     <>
+      <AmpLink path={PAGES.faq.path} />
       <JsonLd
         data={[
           webPageLd({ name: PAGES.faq.h1, path: PAGES.faq.path, description: PAGES.faq.description }),
