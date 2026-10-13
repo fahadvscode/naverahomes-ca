@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Approximate 38-foot and 41-foot lot widths at Navera at Mayfield Village</title>
+  <desc id="desc">Two rectangles. The left is about 38 feet wide and the right is about 41 feet wide.</desc>
+  <rect width="640" height="280" fill="#FAF7F0"/>
+  <rect x="36" y="48" width="228" height="150" fill="#EFE9DB" stroke="#2F4A3A" stroke-width="2"/>
+  <rect x="320" y="48" width="246" height="150" fill="#EFE9DB" stroke="#2F4A3A" stroke-width="2"/>
+  <text x="150" y="128" text-anchor="middle" fill="#1B1F1C" font-size="18" font-family="Georgia, serif">38 ft</text>
+  <text x="443" y="128" text-anchor="middle" fill="#1B1F1C" font-size="18" font-family="Georgia, serif">41 ft</text>
+  <text x="36" y="230" fill="#5A625C" font-size="14" font-family="Georgia, serif">Approximate widths only. Plans are to be announced.</text>
+</svg>

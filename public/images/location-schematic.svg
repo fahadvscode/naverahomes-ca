@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic of Countryside Drive and Torbram Road, Brampton</title>
+  <desc id="desc">Countryside Drive runs east-west. Torbram Road runs north-south. A marker sits northwest of the crossing.</desc>
+  <rect width="640" height="360" fill="#FAF7F0"/>
+  <line x1="40" y1="150" x2="600" y2="150" stroke="#2F4A3A" stroke-width="8"/>
+  <line x1="360" y1="30" x2="360" y2="330" stroke="#2F4A3A" stroke-width="8"/>
+  <circle cx="300" cy="110" r="10" fill="#8F5B38"/>
+  <text x="48" y="140" fill="#1B1F1C" font-size="16" font-family="Georgia, serif">Countryside Drive</text>
+  <text x="372" y="58" fill="#1B1F1C" font-size="16" font-family="Georgia, serif">Torbram Road</text>
+  <text x="248" y="96" fill="#8F5B38" font-size="14" font-family="Georgia, serif">Navera</text>
+  <text x="48" y="250" fill="#5A625C" font-size="15" font-family="Georgia, serif">Highway 410  about 7 min</text>
+  <text x="48" y="278" fill="#5A625C" font-size="15" font-family="Georgia, serif">Bramalea GO  about 20 min</text>
+  <text x="48" y="320" fill="#5A625C" font-size="14" font-family="Georgia, serif">Schematic only. Not a site plan.</text>
+</svg>
